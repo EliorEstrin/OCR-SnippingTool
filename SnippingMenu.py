@@ -131,21 +131,11 @@ class Menu(QMainWindow):
         self.textbox.resize(280, 120)
         self.window.show()
 
-        # self.textbox = QLineEdit(self.window)
-        # self.textbox.setText("Text")
-        # self.textbox.move(10, 30)
-        # self.textbox.resize(280, 120)
-        # print(type(img))
-        # print(type(numpy.array()))
-        #Saving The image
-        # print(f"Type A {type(img)}  Type B: {type(numpy.array())}")
-
-
+        #Default Text
         self.textbox.setPlainText("Text")
 
+        #Checking Type of img (valid or not)
         if isinstance(img, (np.ndarray, np.generic)):
-            # print(img)
-            # print(type(img))
             print("Saving THe image:")
             from PIL import Image
             im = Image.fromarray(img)
@@ -155,7 +145,6 @@ class Menu(QMainWindow):
             self.textbox.setPlainText(text)
         else:
             print("This is The run number 0 - No image")
-
 
     def save_file(self):
         file_path, name = QFileDialog.getSaveFileName(self, "Save file", self.title, "PNG Image file (*.png)")
