@@ -201,20 +201,7 @@ class Menu(QMainWindow):
         return QPixmap(QImage(np_img.data, width, height, bytesPerLine, QImage.Format_RGB888).rgbSwapped())
 
 
-# def open_respone():
-#     # mainMenu2 = test.App()
-#     # return mainMenu2
-#     app = QApplication(sys.argv)
-#     main = Menu()
-#     # mainMenu2 = test.App()
-#
-#     # open_respone()
-#     sys.exit(app.exec_())
-
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     mainMenu = Menu()
-    # mainMenu2 = test.App()
-    # main3 = open_respone()
-    # open_respone()
     sys.exit(app.exec_())
