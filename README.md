@@ -28,8 +28,30 @@ Use the requirments.txt file to speed up the progress
 pip install -r /path/to/requirements.txt
 ```
 
+Get into Your GPC Console 
 
+https://console.cloud.google.com/
 
+1. Go Into "Apis & Services"
+<br>
+2. Search for vision
+<br>
+3. Enable The Cloud vision API
+
+<br>
+Set Up authentication<br>
+Here the Instructions From google-docs : <br>
+Link To <br>
+[Docs](https://cloud.google.com/vision/docs/libraries#setting_up_authentication)
+<br>
+<img src="images/auth_set.png" alt="auth-instruction" width="700">
+
+After You Download the key rename it to :
+```shell
+ServiceAccountToken.json
+```
+Put This File inside you venv dir.
+This is the path that was defined in the module.
 
 [//]: # (Tools Used In Project)
 
