@@ -12,6 +12,10 @@ from PyQt5.QtWidgets import QAction, QMainWindow, QApplication, QPushButton, QMe
 
 
 class SnippingWidget(QtWidgets.QWidget):
+    """
+    This is the Snipping tool
+    This class makes it possible to snip an image from the whole screen
+    """
     num_snip = 0
     is_snipping = False
     background = True

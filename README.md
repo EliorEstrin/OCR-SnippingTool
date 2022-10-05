@@ -32,8 +32,7 @@ Second, Open a Virtual environment and install all packages.<br><br>
 
 Use the requirements.txt file to speed up the progress.
 <br>
-(Currently It doesn't contain all packages
-so be aware you might need to install some packages by commands)
+
 ```shell
 pip install -r /path/to/requirements.txt
 ```
