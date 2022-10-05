@@ -23,4 +23,4 @@ def get_text_from_image():
     print(f"The Result is: {docText}")
     return docText
 
-# get_text_from_image()
+get_text_from_image()

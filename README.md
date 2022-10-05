@@ -9,26 +9,36 @@ A Snipping tool With OCR functionality.<br>
 This Program Can:
 
 1. Get copy/pastable text from snipped Image
-2. screen snippet + save
+2. save screen snippet
+
+## Build with
+<h3 align="left">Languages and Tools:</h3>
+<p align="left">
+<a href="https://www.python.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+<a href="https://cloud.google.com/vision"><img src="images/cloud-vision-api.svg" alt="python" width="40" height="40"/> </a> 
+<a href="https://www.qt.io/"><img src="images/qt.svg" alt="python" width="40" height="40"/> </a>
+</p>
 
 
 # Running the Program
 
-First, verify python is installed 
-
-
-
+First, verify python is installed By Running
 
 ```shell
 python --version
 ```
-Open a Virtual Enviroment and intall all packages, if you got pycharm it is a great option.
-Use the requirments.txt file to speed up the progress
+Second, Open a Virtual environment and install all packages.<br><br>
+**TIP** : If you got pycharm it is a great option as it is very easy so set a virtual environment .<br><br>
+
+Use the requirements.txt file to speed up the progress.
+<br>
+(Currently It doesn't contain all packages
+so be aware you might need to install some packages by commands)
 ```shell
 pip install -r /path/to/requirements.txt
 ```
 
-Get into Your GPC Console 
+### Get into Your GPC Console 
 
 https://console.cloud.google.com/
 
@@ -38,8 +48,10 @@ https://console.cloud.google.com/
 <br>
 3. Enable The Cloud vision API
 
+### Set Up Authentication - Getting The Json API key
+
+
 <br>
-Set Up authentication<br>
 Here the Instructions From google-docs : <br>
 Link To <br>
 [Docs](https://cloud.google.com/vision/docs/libraries#setting_up_authentication)
@@ -50,13 +62,14 @@ After You Download the key rename it to :
 ```shell
 ServiceAccountToken.json
 ```
-Put This File inside you venv dir.
-This is the path that was defined in the module.
+Put This File inside you /venv/ dir.
+This is the path that the file need to be in so the program will work.
 
-[//]: # (Tools Used In Project)
+## Change The following variable in handWriteRecognizion.py
+Folder_PATH >> Your current project folder
+Set the value FOLDER_PATH To your current project directory Path
 
-[//]: # (1.Google-VisionAPI)
 
-[//]: # (2.Pyqt5 Library)
-
-[//]: # (3.Snipping Tool From The legend "harupy" Git Hun Repo Link: https://github.com/harupy/snipping-tool)
+## Credits
+A great Snipping Tool From The legend "harupy". <br>
+Link To Repo Link: https://github.com/harupy/snipping-tool)
