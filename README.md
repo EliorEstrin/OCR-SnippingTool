@@ -61,7 +61,7 @@ After You Download the key rename it to :
 ```shell
 ServiceAccountToken.json
 ```
-Put This File inside you /venv/ dir.
+Put This File inside your /venv/ directory.
 This is the path that the file need to be in so the program will work.
 
 ## Change The following variable in handWriteRecognizion.py
