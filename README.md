@@ -5,7 +5,10 @@
 
 </div>
 
-A Snipping tool With OCR functionality.<br>
+A Snipping tool With OCR functionality.<br><br>
+
+![Alt Text](images/demo.gif)
+<br>
 This Program Can:
 
 1. Get copy/pastable text from snipped Image
