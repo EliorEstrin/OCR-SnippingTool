@@ -9,10 +9,11 @@ A Snipping tool With OCR functionality.<br><br>
 
 ![Alt Text](images/demo.gif)
 <br>
-This Program Can:
+The purpose of this program is to provide the following functionality:
 
-1. Get copy/pastable text from snipped Image
-2. save screen snippet
+1.    Extract copy/pastable text from a snipped image.
+2.    Save screen snippets.
+
 
 ## Build with
 <h3 align="left">Languages and Tools:</h3>
